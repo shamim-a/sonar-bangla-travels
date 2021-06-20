@@ -34,7 +34,7 @@ const Destination = () => {
         setPickForm(e.target.value);
     }
 
-    const handlePickTo = (e) => {                       // use handlePickFrom to know the place where passenger want to go
+    const handlePickTo = (e) => {                       
         // console.log(e.target.name, e.target.value);
         setPickTo(e.target.value);
     }
