@@ -1,0 +1,9 @@
+.error-container {
+    background-color: #d82c16;
+    text-align: center;
+}
+@media (max-width:576px){
+    .error-container div div img{
+        max-width: 100%;
+    }
+}

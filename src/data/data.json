@@ -1,0 +1,21 @@
+[{
+  "id": 1,
+  "transportName": "bike",
+  "mainImage": "https://inc42.com/wp-content/uploads/2019/12/shutterstock_1526149508-3.jpg",
+  "logo": "http://dummyimage.com/209x167.jpg/dddddd/000000"
+}, {
+  "id": 2,
+  "transportName": "car",
+  "mainImage": "https://officechai.com/wp-content/uploads/2016/01/ola-share.jpg",
+  "logo": "http://dummyimage.com/150x115.png/5fa2dd/ffffff"
+}, {
+  "id": 3,
+  "transportName": "bus",
+  "mainImage": "https://www.shohoz.com/img/new-operator-promotion.jpg",
+  "logo": "http://dummyimage.com/158x240.jpg/ff4444/ffffff"
+}, {
+  "id": 4,
+  "transportName": "train",
+  "mainImage": "https://static.vecteezy.com/system/resources/thumbnails/000/135/511/small_2x/tgv-train-vector.jpg",
+  "logo": "http://dummyimage.com/107x210.jpg/dddddd/000000"
+}]

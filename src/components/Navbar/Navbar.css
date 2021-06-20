@@ -1,0 +1,76 @@
+#user-name {
+    color: #e6e6e6 !important;
+    text-decoration: underline;
+    text-transform: uppercase;
+    background-color: #06990670;
+    border-radius: 8px 0px 0px 8px;
+    margin: 0;
+}
+#user-name:hover{
+    background-color: #06a06dea;
+    color: #ffffff;
+}
+.logo-brand-name {
+    font-size: 1.825rem;
+    font-weight: 700;
+    color: #000;
+    transition: all 700ms;
+}
+
+.logo-brand-name:hover {
+    color: #fff !important;
+}
+
+.navbar {
+    background-color: #81ff76 !important;
+}
+
+.nav-link {
+    color: #000 !important;
+    font-size: 18px;
+    font-weight: 600;
+    transition: all 600ms;
+}
+
+.nav-link:hover {
+    color: #fffed6 !important;
+    background-color: #47a554;
+    border-radius: 8px;
+    transition: all 800ms;
+}
+
+.log-out-btn {
+    color: #000;
+    font-size: 20px;
+    border-radius: 0px 8px 8px 0px;
+    border: none;
+    transition: all 600ms;
+    padding: 0 20px;
+    margin: 0;
+}
+
+.log-out-btn:hover {
+    background: #e00c0c;
+    color: #fff;
+}
+.navbar-light .navbar-toggler {
+    color: #6ab158;
+}
+@media (max-width:576px) {
+    .logo-brand-name {
+        font-size: 1.125rem;
+    }
+    .navbar-toggler{
+        padding: .25rem .5rem;
+
+    }
+    #navBar-Items{
+        text-align: center;
+    }
+    .log-out-btn {
+        border-radius: 0px 0px 8px 8px;
+    }
+    #user-name {
+        border-radius: 8px 8px 0px 0px;
+    }
+}

@@ -1,0 +1,26 @@
+.service-container hr {
+    border: 0;
+    border-top: 5px solid #04cbee1a;
+    max-width: 14rem;
+    margin: auto;
+}
+.service-container {
+    position: relative; 
+    height: 100%;
+    width: 100%;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+.service-container::before{
+    content: "";
+      /* background-image: url('https://thumbs.dreamstime.com/b/travel-banner-flat-vacation-design-set-concept-illustration-74366503.jpg'); */
+      background-image: linear-gradient(15deg, #ffc7c7d3, #33ee43a2);
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.5;
+}
