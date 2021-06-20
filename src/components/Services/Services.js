@@ -11,7 +11,7 @@ const Services = () => {
     return (
         <div className="d-flex flex-wrap m-auto">
             {
-                services.map(service => <Service service={service}></Service>)
+                services.map(service => <Service service={service} key = {service.id}></Service>)
             }
         </div>
     );
